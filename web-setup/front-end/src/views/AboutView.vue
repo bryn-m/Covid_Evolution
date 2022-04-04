@@ -44,8 +44,6 @@
         functionality and the ability to display the Alpha, Delta, and Omicron waves
         using a bivariate choropleth heatmap.
       </p>
-    </div>
-    <div class="foot">
       <p>https://github.com/bryn-m/Covid_Evolution</p>
     </div>
   </div>
