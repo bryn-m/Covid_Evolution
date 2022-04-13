@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    
     <CovidMap />
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div class="Maps">
-    <img src="map1.gif" />
+    <img src="map1.gif" style="width: 60%;"/>
   </div>
 </template>
 
@@ -12,6 +12,7 @@ export default {
 
     };
   },
+
 }
 
 </script>

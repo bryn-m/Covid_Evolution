@@ -1,32 +1,32 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    <div class="other">
+      <nav class="navbar nav navbar-nav navbar-expand navbar-light" style="background-color: #e3f2fd;">
+        <a class="navbar-brand" href="/"><strong>Tracking Covid Variant Evolution</strong></a>
+        <a class="nav-item nav-link" href="/">Home</a>
+        <a class="nav-item nav-link" href="/cycle">Maps</a>
+        <a class="nav-item nav-link" href="/about">About</a>
+
+      </nav>
+      <router-view/>
+    </div>
   </div>
 </template>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
+  font-family: sans-serif;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
 
-nav {
-  padding: 30px;
+.nav-item, .navbar-brand {
+  margin-right: 8px;
 }
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.navbar-brand {
+  margin-left: 12px;
 }
 
-nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
